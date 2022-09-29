@@ -1,0 +1,246 @@
+.elementor-kit-12448{--e-global-color-primary:#EA5B0C;--e-global-color-secondary:#FFFFFF;--e-global-color-text:#272727;--e-global-color-accent:#EA5B0C;--e-global-typography-primary-font-family:"Big John";--e-global-typography-primary-font-weight:400;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-container{--container-max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}.elementor-element{--widgets-spacing:20px;}{}h1.entry-title{display:var(--page-title-display);}.elementor-kit-12448 e-page-transition{background-color:#FFBC7D;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-container{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-container{--container-max-width:767px;}}/* Start custom CSS */ul {
+    list-style-type: square;
+}
+
+.badge {
+    position: absolute;
+    padding: 2px 2px 0 2px;
+    margin-left: 5px;
+    margin-top: -2px;
+	background-color: #ea5b0c;
+	font-family: 'Big John';
+	font-size: 11px;
+	font-weight: normal;
+	color: #fff;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.products {
+    padding: 5px 3px 3px 3px;
+}
+
+.big_john {
+    font-family: 'Big John';
+}
+
+.orange_bold {
+    color: #ea5b0c;
+    font-weight: bold;
+}
+
+.link_roboto {
+    color: #ea5b0c;
+}
+
+.link_big_john {
+    color: #ea5b0c;
+    font-family: 'Big John';
+}
+
+.link_roboto:hover {
+    color: #ea5b0c;
+    text-decoration: underline;
+}
+
+.link_big_john:hover {
+    color: #ea5b0c;
+    font-family: 'Big John';
+    text-decoration: underline;
+}
+
+/* Vimeo Player */
+.player {
+    max-width: 100% !important;
+}
+
+/* CollpaseOMatic */
+.arrowright {
+   color: #ea5b0c;
+}
+
+.noarrow {
+   color: #ea5b0c;
+}
+
+
+.collapseomatic.batemo {
+background-image: url(/wp-content/uploads/2019/11/plus.png);
+font-size: 11px;
+background-size: 15px;
+background-position: left center;
+color: #ea5b0c;
+padding-top: 7px;
+}
+
+.collapsible_orange {
+    color: #ea5b0c;
+    font-size: 11px;
+    text-align: justify;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* MemberPress */
+
+form input[type="text"] {
+    border-radius: 2px;
+}
+
+/* WPClever */
+@media only screen and (min-width: 767px) {
+li.product .woosc-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    background-image: url('/wp-content/uploads/plus_white.svg');
+    background-color: transparent;
+ background-repeat: no-repeat;
+    box-shadow: none;
+    border: none;
+    font-size: 0;
+    opacity: .5;
+}
+li.product .woosc-btn:hover {
+    opacity: 1;
+}
+li.product .woosc-btn.woosc-btn-added {
+    background-image: url('/wp-content/uploads/plus_orange.svg');
+}
+li.product .woosc-btn span {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    display: block;
+    color: #fff !important;
+}
+li.product .woosc-btn span:after {
+ color: #fff !important;
+    text-shadow: none !important;
+    font-weight: 400 !important;
+}
+
+body.single-product .woosc-btn .hint--left:before, body.single-product .woosc-btn .hint--left:after {
+    display: none !important;
+}
+}
+
+
+@media only screen and (max-width: 767px) {
+li.product .woosc-btn {
+ font-size: 14px;
+ font-weight: normal;
+ font-family: 'Big John';
+ margin-top: 20px;
+ padding: 7px 5px 5px 5px;
+ border: 0;
+ }
+
+ .woosc-btn:before, .woosc-btn .hint--left:before, .woosc-btn .hint--left:after {
+ display: none !important;
+ }
+}
+
+/* Compare Bar and Table*/
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table thead tr th a {
+    font-family: 'Big John';
+    font-weight: normal;
+    color: #fff;
+    text-shadow: 0px 0px 10px rgb(0 0 0 / 100%);
+}
+
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table thead tr th a:hover {
+    color: #ea5b0c;
+}
+
+.woosc-area .woosc-inner .woosc-bar .woosc-bar-btn {
+    font-family: 'Big John';
+    font-weight: normal;
+    padding: 2px 15px 0 70px;
+}
+
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table thead tr th {
+    background-color: #232323 !important;
+}
+
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table tbody tr td {
+    color: #fff;
+    background-color: #272727 !important;
+}
+
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table tbody tr td:first-child {
+    color: #fff;
+    background-color: #272727 !important;
+    font-weight: bold;
+}
+
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-items table tbody tr:nth-child(2n) td {
+    background-color: #232323 !important;
+}
+
+.woosc-area .woosc-inner .woosc-table .woosc-table-inner .woosc-table-close .woosc-table-close-icon {
+    background-color: #232323;
+    background-image: url('/wp-content/uploads/general/wpc-custom/remove-orange.svg');
+    background-size: 20px;
+}
+
+.woosc-btn.woosc-btn-added:before {
+    content: '';
+    margin-right: 0;
+}
+
+/* Compare PopUp */
+.woosc-popup .woosc-popup-inner .woosc-popup-content {
+    background-color: #222;
+}
+
+.woosc-popup .woosc-popup-inner .woosc-popup-content .woosc-popup-content-inner .woosc-search-input input {
+    background-color: #272727;
+    color: #fff;
+}
+
+.woosc-popup .woosc-popup-inner .woosc-popup-content .woosc-popup-content-inner .woosc-search-input input::placeholder {
+    color: #fff;
+}
+
+.woosc-popup .woosc-popup-inner .woosc-popup-content .woosc-popup-content-inner .woosc-search-result ul li .item-inner .item-name {
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: 'Big John';
+    font-weight: normal;
+}
+
+.woosc-popup .woosc-popup-inner .woosc-popup-content .woosc-popup-content-inner .woosc-search-result ul li {
+    border: none;
+    margin: 0 10px 10px 0;
+    padding-left: 10px;
+    background-color: #272727;
+}
+
+.woosc-popup .woosc-popup-inner .woosc-popup-content .woosc-popup-content-inner .woosc-search-result ul li .item-inner .item-add span {
+    color: #ea5b0c;
+    font-size: 25px;
+    background-color: #272727;
+}
+
+.woosc-popup .woosc-popup-inner .woosc-popup-content .woosc-popup-content-inner .woosc-search-result:before {
+    background-color: #272727;
+}
+
+.woosc-popup .woosc-popup-inner .woosc-popup-content .woosc-popup-content-inner .woosc-search-result:after {
+    background-image: url("/wp-content/uploads/general/wpc-custom/curve-orange.svg") !important;
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Big John';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://www.batemo.de/wp-content/uploads/BIG_JOHN.ttf') format('truetype');
+}
+/* End Custom Fonts CSS */

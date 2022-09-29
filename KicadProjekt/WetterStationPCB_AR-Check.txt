@@ -1,0 +1,11 @@
+AR checking written on:
+'D:\Projekt\PCB-Disign\WetterStationPCB\WetterStationPCB_AR-Check.txt'
+'action_menu_annular_check.py'
+version = 1.7.2
+Testing PCB for Annular Rings
+TH Pads >= 0.3 Vias >= 0.13
+PHD margin on PTH = 0
+
+VIAS that Pass = 248; Fails = 0
+TH PADS that Pass = 93; Fails = 0
+NPTH PADS that Pass = 0; Fails = 0
